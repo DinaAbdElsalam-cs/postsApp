@@ -7,21 +7,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="@dimen/_15sdp"
     android:layout_margin="@dimen/_4sdp"
-    app:cardBackgroundColor="#F6D1DE">
+    app:cardBackgroundColor="#CCE9F6">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_10sdp">
+        android:padding="@dimen/_5sdp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/user_image"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_65sdp"
             tools:src="@color/black"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="@dimen/_10sdp"
-            tools:ignore="MissingConstraints" />
+            android:layout_marginTop="@dimen/_5sdp"
+           app:layout_constraintTop_toTopOf="parent"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/profile_Name"
@@ -32,7 +32,7 @@
             android:layout_marginTop="@dimen/_15sdp"
             android:layout_marginStart="@dimen/_5sdp"
             android:drawableEnd="@drawable/close_icon"
-            android:textSize="17dp"
+            android:textSize="@dimen/_20ssp"
             android:textColor="@color/black"
             android:textStyle="bold"
             tools:text="Dina Abdel Salam"/>
@@ -45,7 +45,8 @@
             app:layout_constraintTop_toBottomOf="@id/profile_Name"
             app:layout_constraintStart_toEndOf="@id/user_image"
             android:layout_marginStart="@dimen/_5sdp"
-            android:textColor="#0585EC" />
+            android:textColor="#0585EC"
+            android:textSize="@dimen/_13ssp"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/post_text"
@@ -63,46 +64,7 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.7"/>
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/share_btn"
-            android:layout_width="@dimen/_90sdp"
-            android:layout_height="@dimen/_40sdp"
-            android:backgroundTint="#F6D1DE"
-            android:text="@string/share"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_10ssp"
-            app:icon="@drawable/share_icon"
-            app:iconTint="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/guid_line" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/comment_btn"
-            android:layout_width="0dp"
-            android:layout_height="@dimen/_40sdp"
-            android:layout_marginEnd="15dp"
-            android:backgroundTint="#F6D1DE"
-            android:text="@string/comment"
-            android:textColor="@color/black"
-            app:icon="@drawable/commint_icon"
-            app:iconTint="@color/black"
-            android:textSize="@dimen/_9ssp"
-            app:layout_constraintEnd_toStartOf="@+id/share_btn"
-            app:layout_constraintTop_toBottomOf="@id/guid_line" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/like_btn"
-            android:layout_width="0dp"
-            android:layout_height="@dimen/_40sdp"
-            android:layout_marginEnd="8dp"
-            android:backgroundTint="#F6D1DE"
-            android:text="@string/like"
-            android:textColor="@color/black"
-            app:icon="@drawable/like_icon"
-            app:iconTint="@color/black"
-            android:textSize="@dimen/_9ssp"
-            app:layout_constraintTop_toBottomOf="@id/guid_line"
-            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

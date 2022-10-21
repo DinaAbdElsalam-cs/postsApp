@@ -4,8 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_entertainment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_health.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_science.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_sport.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/fragment_technology.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_entertainment_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_health_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_home_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_posts_layout.xml" value="0.253125" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_science_layout.xml" value="0.253125" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_sports_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/win10/AndroidStudioProjects/postsApp3/app/src/main/res/layout/item_technology_layout.xml" value="0.264" />
       </map>
     </option>
   </component>
